@@ -8,6 +8,8 @@
  * http://www.maxmind.com/app/geolitecity because it is around 30MB and gets
  * updated every month. For any licensing restrictions please see
  * http://geolite.maxmind.com/download/geoip/database/LICENSE.txt
+ *
+ * @author Miha Hribar
  */
 
 // need a little bit more memory, set to a value you know will work and not cause problems

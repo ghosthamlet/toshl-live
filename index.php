@@ -1,3 +1,22 @@
+<?php
+
+/**
+ * This code is an example of how to track live locations with google maps. For
+ * a live example check http://toshl.com/live/
+ *
+ * For this code to work you must download GeoLiteCity.dat (binary) database from
+ * http://www.maxmind.com/app/geolitecity because it is around 30MB and gets
+ * updated every month. For any licensing restrictions please see
+ * http://geolite.maxmind.com/download/geoip/database/LICENSE.txt
+ *
+ * @author Miha Hribar
+ */
+
+session_start();
+// reset count -> see json.php for more info
+$_SESSION['i'] = 0;
+
+?>
 <!DOCTYPE html>
 <html>
   <head>
